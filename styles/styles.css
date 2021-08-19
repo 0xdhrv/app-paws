@@ -1,0 +1,29 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #000;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 8px solid #000;
+}
+
+.no-copy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.no-border {
+  border: 0px solid transparent !important;
+}
